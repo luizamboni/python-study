@@ -12,3 +12,33 @@ df = pd.DataFrame({
 
 
 print df
+
+print ""
+
+# dataframe types
+print df.dtypes
+
+
+print ""
+
+# head
+print df.head(1)
+
+print ""
+
+# head
+print df.tail(1)
+
+
+
+print "index"
+print df.index
+
+
+print "columns"
+print df.columns
+
+print "values"
+print df.values
+
+
